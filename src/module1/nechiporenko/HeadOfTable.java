@@ -1,4 +1,4 @@
-package module1;
+package module1.nechiporenko;
 
 public class HeadOfTable {
     static public void showHeadOfTable (int size) {

@@ -1,4 +1,4 @@
-package module1;
+package module1.nechiporenko;
 
 public class MeasureRunner {
     public static void main(String[] args) {

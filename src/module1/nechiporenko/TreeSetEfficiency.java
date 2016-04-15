@@ -1,4 +1,4 @@
-package module1;
+package module1.nechiporenko;
 
 import java.util.Random;
 import java.util.TreeSet;
