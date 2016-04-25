@@ -4,13 +4,13 @@ import java.util.List;
 
 public interface Executor <T> {
 
-        void addTask(Task <Long> task);
+        void addTask(Task <? extends T> task);
 
-        void addTask(Task <Long> task, Validator validator);
+        void addTask(Task <? extends T> task, Validator <? super T> validator);
 
         void execute();
 
-        List<? extends T> getValidResults();
+        List<T> getValidResults();
 
-        List<? extends T> getInvalidResults();
+        List<T> getInvalidResults();
 }
